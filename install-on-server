@@ -8,6 +8,6 @@ fi
 
 for i in update; do
     echo $i
-    curl -o hooks/$i $host/master/$i
+    curl -L -o hooks/$i $host/master/$i
     chmod a+x hooks/$i
 done

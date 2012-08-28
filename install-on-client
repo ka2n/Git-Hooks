@@ -8,6 +8,6 @@ fi
 cd $(git rev-parse --show-toplevel)
 for i in common.sh commit-msg pre-commit; do
     echo $i
-    curl -o .git/hooks/$i $host/master/$i
+    curl -L -o .git/hooks/$i $host/master/$i
     chmod a+x .git/hooks/$i
 done

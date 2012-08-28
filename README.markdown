@@ -106,10 +106,10 @@ Redmine固定とかその他いろいろなところで微妙な部分が多い�
 全自動は無理っぽいですけど・・・
 
 クライアント側
-  $ curl https://raw.github.com/bleis-tift/Git-Hooks/master/install-on-client | sh
+  $ curl -L https://raw.github.com/bleis-tift/Git-Hooks/master/install-on-client | sh
 
 サーバ側
-  $ curl https://raw.github.com/bleis-tift/Git-Hooks/master/install-on-server | sh
+  $ curl -L https://raw.github.com/bleis-tift/Git-Hooks/master/install-on-server | sh
 
 # ライセンス
 
